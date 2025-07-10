@@ -1,0 +1,43 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5fa;
+  color: #222;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 2em;
+  color: #4f46e5;
+  letter-spacing: 1px;
+}
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+}
+.signup-btn,
+.login-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.signup-btn:hover,
+.login-btn:hover {
+  background: #3730a3;
+}
