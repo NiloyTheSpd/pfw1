@@ -238,3 +238,105 @@ body {
   font-size: 0.8em;
   color: #888;
 }
+
+/* Focus Section Styles */
+.website-section-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 900px; 
+    margin: 20px auto; 
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.website-section-container h1 {
+    font-size: 2.5em; 
+    color: #333; 
+    margin-bottom: 0; 
+}
+
+.website-section-container p {
+    font-size: 1.1em;
+    color: #666; 
+    max-width: 600px; 
+    line-height: 1.6;
+    margin-top: 5px; 
+}
+
+.get-started-button {
+    background-color: #6633ff; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.get-started-button:hover {
+    background-color: #5229cc; 
+}
+
+.image-container {
+    margin-top: 40px; 
+    width: 100%;
+    max-width: 800px; 
+    overflow: hidden; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 10px; 
+}
+
+@media (max-width: 768px) {
+    .website-section-container h1 {
+        font-size: 2em;
+    }
+
+    .website-section-container p {
+        font-size: 1em;
+    }
+
+    .get-started-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    .website-section-container {
+        padding: 30px 15px;
+        margin: 15px auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    .website-section-container h1 {
+        font-size: 1.8em;
+    }
+
+    .website-section-container p {
+        font-size: 0.9em;
+    }
+
+    .get-started-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
