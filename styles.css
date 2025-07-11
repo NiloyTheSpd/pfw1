@@ -171,3 +171,70 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Feedback Section Styles */
+.feedback-section {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+.feedback-title {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: stretch;
+}
+.feedback-card {
+  background: #fff;
+  padding: 30px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  max-width: 350px;
+  text-align: left;
+  border: 1px solid #f0f0f0;
+}
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #222;
+}
+.card-text {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.reviewer-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviewer-info {
+  flex: 1;
+}
+.reviewer-name {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2px;
+}
+.reviewer-date {
+  font-size: 0.8em;
+  color: #888;
+}
